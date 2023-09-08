@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <meta name="keywords" content="html, css, js, javascript, codo a codo">
 
-    <title> Home │ Funkoshop </title>
+    <title> Crear nuevo item</title>
     <script src="https://kit.fontawesome.com/8ee29917fc.js" crossorigin="anonymous"></script>      
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -49,8 +49,51 @@
 
     <!-- Contenido -->
     <main>
-        <h1>Seccion Create</h1>
+        <h1>CREAR NUEVO ITEM</h1>
+        <form >
+            <label for="categoria">Categoría</label>
+            <select name="categoria" id="categoria">
+                <option value="">Categotía 1</option>
+                <option value="">Categotía 2</option>
+                <option value="">Categotía 3</option>
+                <option value="">Categotía 4</option>
+                <option value="">Categotía 5</option>
+            </select>
+
+            <label for="licencia">Licencia</label>
+            <select name="licencia" id="licencia">
+                <option value="">Categotía 1</option>
+                <option value="">Categotía 2</option>
+                <option value="">Categotía 3</option>
+                <option value="">Categotía 4</option>
+                <option value="">Categotía 5</option>
+            </select>
+            <label for="name">Nombre del Producto</label>
+            <input type="text" name="name">
+            <textarea name="description" id="description" placeholder="Descripcion del productos"></textarea>
+            <label for="sku">SKU</label>
+            <input type="text" name="sku">
+            <label for="precio">Precio</label>
+            <input type="number" name="precio" id="precio" placeholder="$ 0.000.00">
+            <label for="stock">Stock</label>
+            <input type="number" name="stock" id="stock" placeholder="0">
+            <label for="descuento">Descuento</label>
+            <input type="number" name="descuento" id="descuento" placeholder="0%">
+            <label for="cuotas">Cuotas</label>
+            <select name="cuotas" id="cuotas">
+                <option value="">Cuotas 1</option>
+                <option value="">Cuotas 2</option>
+                <option value="">Cuotas 3</option>
+                <option value="">Cuotas 4</option>
+                <option value="">Cuotas 5</option>
+            </select>
+            <label>Imagenes:</label>
+            <input type="submit" value="Elegir archivos"><p>No se ha seleccionado ningun archivo</p>
+            <input type="submit" value="Agregar producto">
+            <input type="submit" value="Limpiar">
+        </form>
     </main>
+    <br><br><br><br><br><br><br><br><br><br>
     <!-- Fin del Contenido -->
 
     <!-- Pie de página -->
